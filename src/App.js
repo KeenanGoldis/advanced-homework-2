@@ -38,15 +38,7 @@ function App(props) {
             <div className="products">
               <h5><span>FEATURED</span> PRODUCTS</h5>
               <div className="section group">
-                {productFiltered.map(product => {
-                  return (
-                    <ProductDetail
-                      key={product.id}
-                      product={product}
-                    />
-                  );
-                })
-                }
+                {ProductDivs}
               </div>
             </div>
 
